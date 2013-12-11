@@ -54,6 +54,7 @@ public System.Drawing.Image DownloadImageFromUrl(string imageUrl)
     }
     catch (Exception ex)
     {
+        
         return null;
     }
  
