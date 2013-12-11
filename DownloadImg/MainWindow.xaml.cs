@@ -54,7 +54,7 @@ public System.Drawing.Image DownloadImageFromUrl(string imageUrl)
     }
     catch (Exception ex)
     {
-        
+        MessageBox.Show(ex.Message);
         return null;
     }
  
